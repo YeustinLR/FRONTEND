@@ -1,0 +1,21 @@
+/* courses.css */
+.course-container {
+    margin-top: 20px;
+  }
+  
+  .course-title {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .course-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .course-item {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  

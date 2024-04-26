@@ -1,0 +1,102 @@
+.register-container {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .register-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  input[type="text"]:focus,
+  input[type="number"]:focus {
+    outline: none;
+    border-color: #3498db;
+  }
+  
+  .edit-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  button[type="submit"],
+  button[type="button"] {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  button[type="button"] {
+    background-color: #f39c12;
+    color: #fff;
+  }
+  
+  button[type="submit"]:hover,
+  button[type="button"]:hover {
+    background-color: #2980b9;
+  }
+  
+  .user-list {
+    margin-top: 20px;
+  }
+  
+  .user-list h3 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  .error-message,
+  .success-message {
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .error-message {
+    background-color: #e74c3c;
+  }
+  
+  .success-message {
+    background-color: #2ecc71;
+  }
+  

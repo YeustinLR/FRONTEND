@@ -1,0 +1,21 @@
+/* teachers.css */
+.teacher-container {
+    margin-top: 20px;
+  }
+  
+  .teacher-title {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .teacher-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .teacher-item {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
